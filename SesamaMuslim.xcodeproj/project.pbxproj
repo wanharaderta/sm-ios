@@ -16,6 +16,7 @@
 		8360CEE124DD9E930041CA87 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360CEE024DD9E930041CA87 /* DetailView.swift */; };
 		837ECB1B24E01CC300BF46D5 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 837ECB1A24E01CC300BF46D5 /* URLImage */; };
 		83EBEEE324E197FE005C8C1D /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBEEE224E197FE005C8C1D /* Indicator.swift */; };
+		83EBEEE524E1A441005C8C1D /* SchoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBEEE424E1A441005C8C1D /* SchoolCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8360CEDD24DD952D0041CA87 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
 		8360CEE024DD9E930041CA87 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		83EBEEE224E197FE005C8C1D /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		83EBEEE424E1A441005C8C1D /* SchoolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		8360CEC724DD90180041CA87 /* SesamaMuslim */ = {
 			isa = PBXGroup;
 			children = (
+				83EBEEE624E1A4B4005C8C1D /* ViewModels */,
 				83EBEEE124E197F4005C8C1D /* Utils */,
 				8360CEDC24DD93080041CA87 /* Models */,
 				8360CED824DD903B0041CA87 /* Views */,
@@ -103,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				8360CEDA24DD92E00041CA87 /* HomeView.swift */,
+				83EBEEE424E1A441005C8C1D /* SchoolCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -129,6 +133,13 @@
 				83EBEEE224E197FE005C8C1D /* Indicator.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		83EBEEE624E1A4B4005C8C1D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				8360CEDB24DD92E00041CA87 /* HomeView.swift in Sources */,
 				83EBEEE324E197FE005C8C1D /* Indicator.swift in Sources */,
 				8360CECB24DD90180041CA87 /* ContentView.swift in Sources */,
+				83EBEEE524E1A441005C8C1D /* SchoolCell.swift in Sources */,
 				8360CEC924DD90180041CA87 /* SesamaMuslimApp.swift in Sources */,
 				8360CEE124DD9E930041CA87 /* DetailView.swift in Sources */,
 				8360CEDE24DD952D0041CA87 /* School.swift in Sources */,

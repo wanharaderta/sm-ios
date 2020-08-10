@@ -18,6 +18,6 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(item: School(id: 0, name: "", imageURL: "", desc: ""))
+        DetailView(item: School(id: 0, name: "", imageURL: "", desc: "", address: ""))
     }
 }
