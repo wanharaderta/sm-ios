@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,11 @@
 		8360CECB24DD90180041CA87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360CECA24DD90180041CA87 /* ContentView.swift */; };
 		8360CECD24DD901B0041CA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8360CECC24DD901B0041CA87 /* Assets.xcassets */; };
 		8360CED024DD901B0041CA87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8360CECF24DD901B0041CA87 /* Preview Assets.xcassets */; };
+		8360CEDB24DD92E00041CA87 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360CEDA24DD92E00041CA87 /* HomeView.swift */; };
+		8360CEDE24DD952D0041CA87 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360CEDD24DD952D0041CA87 /* School.swift */; };
+		8360CEE124DD9E930041CA87 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360CEE024DD9E930041CA87 /* DetailView.swift */; };
+		837ECB1B24E01CC300BF46D5 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 837ECB1A24E01CC300BF46D5 /* URLImage */; };
+		83EBEEE324E197FE005C8C1D /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EBEEE224E197FE005C8C1D /* Indicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,10 @@
 		8360CECC24DD901B0041CA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8360CECF24DD901B0041CA87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8360CED124DD901B0041CA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8360CEDA24DD92E00041CA87 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8360CEDD24DD952D0041CA87 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		8360CEE024DD9E930041CA87 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		83EBEEE224E197FE005C8C1D /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837ECB1B24E01CC300BF46D5 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +62,10 @@
 		8360CEC724DD90180041CA87 /* SesamaMuslim */ = {
 			isa = PBXGroup;
 			children = (
-				8360CEC824DD90180041CA87 /* SesamaMuslimApp.swift */,
-				8360CECA24DD90180041CA87 /* ContentView.swift */,
+				83EBEEE124E197F4005C8C1D /* Utils */,
+				8360CEDC24DD93080041CA87 /* Models */,
+				8360CED824DD903B0041CA87 /* Views */,
+				8360CED724DD90310041CA87 /* Apps */,
 				8360CECC24DD901B0041CA87 /* Assets.xcassets */,
 				8360CED124DD901B0041CA87 /* Info.plist */,
 				8360CECE24DD901B0041CA87 /* Preview Content */,
@@ -67,6 +79,56 @@
 				8360CECF24DD901B0041CA87 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8360CED724DD90310041CA87 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				8360CEC824DD90180041CA87 /* SesamaMuslimApp.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		8360CED824DD903B0041CA87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8360CEDF24DD9E850041CA87 /* Detail */,
+				8360CED924DD92CD0041CA87 /* Home */,
+				8360CECA24DD90180041CA87 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8360CED924DD92CD0041CA87 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8360CEDA24DD92E00041CA87 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8360CEDC24DD93080041CA87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8360CEDD24DD952D0041CA87 /* School.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8360CEDF24DD9E850041CA87 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8360CEE024DD9E930041CA87 /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		83EBEEE124E197F4005C8C1D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				83EBEEE224E197FE005C8C1D /* Indicator.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +147,9 @@
 			dependencies = (
 			);
 			name = SesamaMuslim;
+			packageProductDependencies = (
+				837ECB1A24E01CC300BF46D5 /* URLImage */,
+			);
 			productName = SesamaMuslim;
 			productReference = 8360CEC524DD90180041CA87 /* SesamaMuslim.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +177,9 @@
 				Base,
 			);
 			mainGroup = 8360CEBC24DD90180041CA87;
+			packageReferences = (
+				837ECB1924E01CC300BF46D5 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 8360CEC624DD90180041CA87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +206,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8360CEDB24DD92E00041CA87 /* HomeView.swift in Sources */,
+				83EBEEE324E197FE005C8C1D /* Indicator.swift in Sources */,
 				8360CECB24DD90180041CA87 /* ContentView.swift in Sources */,
 				8360CEC924DD90180041CA87 /* SesamaMuslimApp.swift in Sources */,
+				8360CEE124DD9E930041CA87 /* DetailView.swift in Sources */,
+				8360CEDE24DD952D0041CA87 /* School.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +400,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		837ECB1924E01CC300BF46D5 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		837ECB1A24E01CC300BF46D5 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837ECB1924E01CC300BF46D5 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8360CEBD24DD90180041CA87 /* Project object */;
 }
